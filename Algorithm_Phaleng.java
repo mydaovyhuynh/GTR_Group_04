@@ -1,3 +1,4 @@
+import java.util.Arrays;
 public class Algorithm_Phaleng extends Algorithm_V1{
     @override
     int sum(int[] input){
