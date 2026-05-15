@@ -6,5 +6,5 @@ public class Algorithm_V1 {
     abstract int sum(int[] input);
 
     // method avg (paleng)
-    abstract double avg();
+    abstract double average(int[] input);
 }
