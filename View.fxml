@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="231.0" layoutY="69.0" text="Mini-Project 1st">
+         <font>
+            <Font name="Times New Roman" size="18.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="14.0" layoutY="35.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fitHeight="100.0" fitWidth="93.0" layoutX="73.0" layoutY="42.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Downloads/Logo-ITC-PNG.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="93.0" fitWidth="93.0" layoutX="454.0" layoutY="42.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Downloads/Logo-GTR-PNG.png" />
+         </image>
+      </ImageView>
+      <TextField fx:id="textField_num1" layoutX="27.0" layoutY="214.0" prefHeight="37.0" prefWidth="130.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="textField_num2" layoutX="215.0" layoutY="213.0" prefHeight="37.0" prefWidth="118.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </TextField>
+      <Label layoutX="183.0" layoutY="218.0" text="+">
+         <font>
+            <Font name="Times New Roman" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="398.0" layoutY="219.0" text="=">
+         <font>
+            <Font name="Times New Roman" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="label_result" layoutX="454.0" layoutY="223.0" text="Result">
+         <font>
+            <Font name="Times New Roman" size="18.0" />
+         </font>
+      </Label>
+      <Button fx:id="button_calculate" layoutX="197.0" layoutY="295.0" mnemonicParsing="false" onAction="#on_calculate" text="Calculate " />
+   </children>
+</AnchorPane>
