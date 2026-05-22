@@ -22,7 +22,6 @@ public class Algorithm_Phaleng extends Algorithm_V1{
 
         Systen.out.println(al.sum(al.sample));
     }
-
 }
 
 
