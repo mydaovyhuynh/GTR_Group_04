@@ -20,6 +20,12 @@ public class controller {
 
     @FXML
     void on_calculate(ActionEvent event) {
+        System.out.println("Button clicked!");
+        String str_num1 = textField_num1.getText();
+        String str_num2 = textField_num2.getText();
+
+        System.out.println("Num1: " + str_num1);
+        System.out.println("Num2: " + str_num2);
 
     }
 
