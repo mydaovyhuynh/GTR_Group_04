@@ -26,17 +26,17 @@
             <Image url="@../../../../Downloads/Logo-GTR-PNG.png" />
          </image>
       </ImageView>
-      <TextField fx:id="textField_num1" layoutX="27.0" layoutY="214.0" prefHeight="37.0" prefWidth="130.0">
+      <TextField fx:id="textField_num1" layoutX="35.0" layoutY="213.0" prefHeight="37.0" prefWidth="130.0">
          <font>
             <Font size="16.0" />
          </font>
       </TextField>
-      <TextField fx:id="textField_num2" layoutX="215.0" layoutY="213.0" prefHeight="37.0" prefWidth="118.0">
+      <TextField fx:id="textField_num2" layoutX="249.0" layoutY="213.0" prefHeight="37.0" prefWidth="118.0">
          <font>
             <Font size="16.0" />
          </font>
       </TextField>
-      <Label layoutX="183.0" layoutY="218.0" text="+">
+      <Label layoutX="197.0" layoutY="219.0" text="+">
          <font>
             <Font name="Times New Roman" size="24.0" />
          </font>
